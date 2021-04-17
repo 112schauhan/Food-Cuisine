@@ -32,6 +32,11 @@ export const foodCuisine = {
       name: "Pho",
       description:
         "Pho is essentially Vietnam’s signature dish, comprising rice noodles in a flavourful soup with meat and various greens, plus a side of nuoc cham (fermented fish) or chilli sauce. A basic bowl contains tai (beef slices), bo vien (beef meatballs) or nam (beef flank), topped with bean sprouts, lime wedges, and fresh herbs such as basil, mint, cilantro, and onions."
+    },
+    {
+      name: "Egg Coffee",
+      description:
+        "Egg Coffee is more of a dessert (think Creme Brulee) than a beverage. Made with egg yolks, sugar and condensed milk, Egg Coffee is the best drink you will eat in Vietnam."
     }
   ],
 
