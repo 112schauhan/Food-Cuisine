@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 import { foodCuisine } from "./foodCuisine.js";
 
-const cuisines = ["Carribean", "Vietnamese", "German", "Japanese", "Indian"];
+const cuisines = ["Carribean", "Vietnamese"];
 
 export default function App() {
   const [content, setContent] = useState(foodCuisine.Carribean);
