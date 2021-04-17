@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: "border-box";
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  margin: 0.2rem;
+  font-size: 18px;
+  border-radius: 8px;
+  background: brown;
+  color: whitesmoke;
+  box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: salmon;
+  color: rgb(98, 18, 202);
+  transform: scale(1.1);
+}
+
+button:active {
+  background: blue;
+  color: rgb(236, 216, 33);
+  transform: translateY(4px);
+}
+
+#list {
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 0.8rem;
+  color: rgba(52, 29, 179, 0.918);
+  font-family: "Verdana";
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.5);
+  width: 80vw;
+}
+
+#list:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.2);
+}
